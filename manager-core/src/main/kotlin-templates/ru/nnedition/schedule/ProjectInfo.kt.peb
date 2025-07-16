@@ -1,0 +1,5 @@
+package ru.nnedition.schedule
+
+object ProjectInfo {
+    const val VERSION = "{{ version | default("unknown") }}"
+}
